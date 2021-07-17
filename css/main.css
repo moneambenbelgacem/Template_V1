@@ -159,3 +159,36 @@ body {
   line-height: 1.8;
 }
 /* End landing  */
+
+/* start Features */
+.features {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #eee;
+}
+
+.features .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.features .feat {
+  text-align: center;
+  padding: 20px;
+}
+.features .feat h3 {
+  font-weight: 800px;
+}
+
+.features .feat i {
+  color: var(--main-color);
+  font-size: 45px;
+}
+
+.features .feat p {
+  color: #777;
+  line-height: 1.8;
+}
+
+/* End features */
