@@ -1,6 +1,7 @@
 /* Start variable  */
 :root {
   --main-color: #10cab7;
+  --secondary-color: #2c4755;
 }
 /* End  variable  */
 
@@ -192,3 +193,24 @@ body {
 }
 
 /* End features */
+/* Start services  */
+.spacial-heading {
+  font-weight: 800;
+  color: #ebeced;
+  font-size: 75px;
+  text-align: center;
+  margin: 0;
+}
+
+.spacial-heading + p {
+  text-align: center;
+  margin: -20px 0 0 0;
+  color: #777;
+}
+
+.services {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/*    End services  */
