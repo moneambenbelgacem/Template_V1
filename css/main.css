@@ -2,6 +2,7 @@
 :root {
   --main-color: #10cab7;
   --secondary-color: #2c4755;
+  --space-content: 60px;
 }
 /* End  variable  */
 
@@ -163,8 +164,8 @@ body {
 
 /* start Features */
 .features {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: var(--space-content);
+  padding-bottom: var(--space-content);
   background-color: #eee;
 }
 
@@ -209,8 +210,8 @@ body {
 }
 
 .services {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: var(--space-content);
+  padding-bottom: var(--space-content);
 }
 
 .services-content .col .image {
@@ -240,8 +241,8 @@ body {
 .services-content {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  padding: 50px;
-  justify-content: center;
+  margin-top: 50px;
+
   gap: 20px;
 }
 
@@ -277,5 +278,40 @@ body {
     flex-basis: 20px;
   }
 }
-
 /*    End services  */
+/* Start portfolio */
+.portfolio {
+  padding-top: var(--space-content);
+  padding-bottom: var(--space-content);
+  background-color: #eee;
+}
+
+.portfolio-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  margin-top: 50px;
+
+  gap: 20px;
+}
+
+.portfolio-content .card img {
+  width: 100%;
+}
+.portfolio-content .card {
+  background-color: white;
+}
+.portfolio-content .card .info {
+  padding: 20px;
+}
+
+.portfolio-content .card .info h3 {
+  margin: 0;
+}
+
+.portfolio-content .card .info p {
+  color: #777;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+/* End portfolio */
