@@ -399,3 +399,52 @@ body {
 }
 
 /* End About */
+/* Start Contact */
+.contact {
+  padding-top: var(--space-content);
+  padding-bottom: var(--space-content);
+  background-color: #eee;
+}
+.contact .info {
+  text-align: center;
+  padding: 30px 0px;
+}
+.contact .info .label {
+  font-weight: 800;
+  font-size: 35px;
+  color: var(--secondary-color);
+  margin-bottom: 20px;
+  letter-spacing: -2px;
+}
+.contact .info .link {
+  display: block;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 800;
+  color: var(--main-color);
+  margin-bottom: 20px;
+}
+.contact .info .social i {
+  color: var(--secondary-color);
+  margin-left: 10px;
+}
+@media (max-width: 767px) {
+  .contact .info .label,
+  .contact .info .link {
+    font-size: 20px;
+  }
+}
+
+/* End Contact */
+/* Start Footer */
+.footer {
+  background-color: var(--secondary-color);
+  text-align: center;
+  padding: 30px 0px;
+  color: white;
+}
+.footer span {
+  color: var(--main-color);
+  font-weight: bold;
+}
+/* End Footer */
